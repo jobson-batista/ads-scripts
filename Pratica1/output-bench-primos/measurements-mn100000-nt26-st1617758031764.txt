@@ -1,2 +1,0 @@
-NumThreads	NumeroMaximo	StartTime	ElapsedTime	MeanUtilization
-26	100000	1617758031764	4816	0.9951171259549343

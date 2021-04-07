@@ -36,7 +36,7 @@ def readAllFiles(folderInput):
         for k in data_sorted:
             f3.write(k)
         f3.close()
-        print("Pronto!\nResultado em {path}".format(path = "~/Documents/output/result.txt"))
+        print("Pronto!\nResultado em {path}".format(path = "output/result.txt"))
     except IOError:
         print("Erro ao abrir arquivo!")
     except:
