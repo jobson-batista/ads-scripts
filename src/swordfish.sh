@@ -29,6 +29,7 @@ then
       sleep 5;
       ((ntMin++))
     done
+    exit
   elif [[ $2 -le 2 ]];
   then
     echo -e "Questão 2\n"
@@ -42,6 +43,7 @@ then
       sleep 5;
       ((mnPrimoInit+=100000))
     done
+    exit
   elif [[ $2 -le 3 ]];
   then
     echo "[EXTRA]"
@@ -50,7 +52,7 @@ fi
 
 if [[ $1 -le 2 ]];
 then
-  echo "Prblema 2"
+  echo "Problema 2"
   if [[ $2 -le 1 ]];
   then
     echo -e "Questão 1\n"
@@ -62,9 +64,9 @@ then
       sleep 5;
       ((arrayMin+=1024))
     done
+    exit
   elif [[ $2 -le 2 ]];
   then
     echo "[EXTRA]"
-  fi
   fi
 fi
