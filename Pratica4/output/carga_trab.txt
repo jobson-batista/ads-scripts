@@ -1,0 +1,5 @@
+Funcao Taxa_de_Chegada
+home 5
+search 8.75
+add 3.625
+pay 1.45
